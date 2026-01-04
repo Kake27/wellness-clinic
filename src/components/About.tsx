@@ -8,13 +8,13 @@ const About = () => {
         </h2>
 
         <p className="mt-6 max-w-3xl text-gray-600 leading-relaxed">
-          Dr. XYZ is a qualified homeopathic physician with over X years of
-          experience in treating chronic and lifestyle-related conditions.
-          The approach focuses on personalized, holistic, and gentle care.
+          Dr. Anjali Karekar is a qualified homeopathic physician, graduating from Dharwad University in B.H.M.S.
+          (Reg No: 29872). She has extensive experience in treating chronic and lifestyle related conditions. <br />
+          Her approach focuses on personalized, holistic, and gentle care.
         </p>
 
         <ul className="mt-8 space-y-2 text-gray-700">
-          <li>✔ X+ years of clinical experience</li>
+          <li>✔ 15+ years of clinical experience</li>
           <li>✔ Individualized treatment plans</li>
           <li>✔ Safe and side-effect free medicine</li>
         </ul>

@@ -14,7 +14,7 @@ const Services = () => {
               Chronic Disease Management
             </h3>
             <p className="mt-2 text-gray-600">
-              Long-term treatment for chronic conditions through personalized
+              Treatment for chronic conditions through personalized
               homeopathic care.
             </p>
           </div>
@@ -34,6 +34,15 @@ const Services = () => {
             </h3>
             <p className="mt-2 text-gray-600">
               Treatment for PCOS, hormonal imbalance, and menstrual disorders.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-teal-700">
+              Online Consultation
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Consultations available online for follow-ups and selected cases.
             </p>
           </div>
 

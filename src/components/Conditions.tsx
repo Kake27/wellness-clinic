@@ -2,9 +2,9 @@ const conditions = [
   "Skin disorders",
   "Allergies & asthma",
   "Digestive problems",
-  "Migraine & headaches",
-  "Hormonal imbalance",
-  "Anxiety & stress",
+  "Migraine & Headaches",
+  "Pimples, Warts & Boils",
+  "Urinary Tract Infections",
 ];
 
 const Conditions = () => {
