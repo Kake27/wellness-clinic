@@ -43,7 +43,7 @@ const Services = () => {
           {services.map((service) => (
             <div
               key={service.title}
-              className="flex gap-4 sm:gap-5 items-start p-5 sm:p-6 rounded-xl border border-gray-200 bg-gradient-to-br from-white to-teal-50/30 hover:shadow-md hover:border-teal-200 transition-all duration-300"
+              className="flex gap-4 sm:gap-5 items-start p-5 sm:p-6 rounded-xl border border-gray-200 bg-linear-to-br from-white to-teal-50/30 hover:shadow-md hover:border-teal-200 transition-all duration-300"
             >
               {/* Icon */}
               <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-white rounded-lg p-2 shadow-sm">
