@@ -41,35 +41,35 @@ const FAQ = () => {
   };
 
   return (
-    <section className="bg-white py-24">
-      <div className="max-w-4xl mx-auto px-6">
+    <section className="bg-white py-16 sm:py-20 lg:py-24">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6">
 
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-gray-900 text-center">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center">
           Frequently Asked Questions
         </h2>
 
         {/* FAQ List */}
-        <div className="mt-12 space-y-4">
+        <div className="mt-10 sm:mt-12 lg:mt-14 space-y-3 sm:space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border border-gray-200 rounded-xl"
+              className="border border-gray-200 rounded-lg sm:rounded-xl overflow-hidden hover:border-teal-200 transition-colors"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center p-6 text-left"
+                className="w-full flex justify-between items-center gap-4 p-4 sm:p-5 lg:p-6 text-left hover:bg-teal-50/50 transition-colors"
               >
-                <span className="text-gray-800 font-medium">
+                <span className="text-sm sm:text-base text-gray-800 font-medium pr-2">
                   {faq.question}
                 </span>
-                <span className="text-teal-600 text-xl">
-                  {openIndex === index ? "−" : "+"}
+                <span className={`text-teal-600 text-2xl shrink-0 transition-transform duration-200 ${openIndex === index ? 'rotate-45' : ''}`}>
+                  +
                 </span>
               </button>
 
               {openIndex === index && (
-                <div className="px-6 pb-6 text-gray-600 leading-relaxed">
+                <div className="px-4 sm:px-5 lg:px-6 pb-4 sm:pb-5 lg:pb-6 text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed bg-teal-50/30">
                   {faq.answer}
                 </div>
               )}
