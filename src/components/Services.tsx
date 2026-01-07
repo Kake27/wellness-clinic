@@ -36,7 +36,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center">
-          Our Services
+          Services Offered
         </h2>
 
         <div className="mt-10 sm:mt-12 lg:mt-14 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 max-w-5xl mx-auto">

@@ -15,11 +15,12 @@ const Testimonials = () => {
           <blockquote className="relative border border-teal-100 rounded-xl sm:rounded-2xl p-6 sm:p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
             <div className="absolute -top-3 left-6 text-5xl text-teal-600/20 font-serif">"</div>
             <p className="relative text-sm sm:text-base text-gray-700 leading-relaxed pt-4">
-              I had chronic migraines and saw significant improvement within
-              a few months of treatment.
+              Dr. Anjali is extremely kind and patient. She listens carefully to all concerns and creates a
+              completely non-judgmental space, making it easy to speak openly. Her treatment has helped me 
+              consistently over a long period, and she is truly my go-to doctor for any kind of issue.
             </p>
             <footer className="mt-5 text-xs sm:text-sm font-semibold text-teal-700">
-              — Patient, Age 32 (Migraine)
+              — Mrs. Varsha Pawar
             </footer>
           </blockquote>
 
